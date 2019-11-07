@@ -1,0 +1,23 @@
+You can work as a team. 
+
+(1) On or before June 10th – deliver a txt (pure text file) analyzing and comparing twitter API and Twitter streaming API, explaining why if we did it with traditional approach, it takes days on end to complete. (5 pts)
+(2) On or before June 18th review rtweet and twitteR package and explain if one package is inherently better than the other. This is required from all students whether or not your implementation is in R (5 pts)
+(3) On or before June 25th—submit your proposal (distributed architecture) to solve this in 1 day or less. (5 pts)
+(4) On or before June 30th – implement, submit your solution and make a class presentation in 3 slides (1 slide architecture, 2 slide run time statistics, 3 slide lessons learned) It can be in any language R, python, scala or java. (5 pts)
+
+
+Twitter’s REST API: 
+Allows you to search terms or get tweets based on specific parameters. This doesn’t give you live data. More useful if you want to do some analytics on historical data.
+
+Twitter’s Streaming API: 
+Gives you live tweets data as per your request and keeps sending it until you ask it to stop. This is ideally useful when you are doing analytics over live campaigns on twitter, etc.
+
+------
+Do I want live tweets from people around the world on a specific term?
+or 
+Do I want historical tweets from people around the world on a specific term?
+
+First one is Streaming API and second is Search API.
+
+----
+ Live is basically real time tweets that are being tweeted for your search times right now. For historical data you can use Rest APIs.
